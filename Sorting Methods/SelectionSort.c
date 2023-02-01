@@ -26,7 +26,7 @@ int main()
 void selectionSort(int arr[],int size)
 {
 	int i,j,min;
-	for(i=0;i<size;i++)
+	for(i=0;i<size-1;i++)
 	{
 		min=i;
 		for(j=i+1;j<size;j++)
